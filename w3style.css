@@ -1,0 +1,104 @@
+body {
+  font-family: sans-serif;
+}
+.container div {
+  border: #000 0px solid;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 0px;
+  margin-bottom: auto;
+}
+#top_title {
+  color:red;
+  font-size: 3em;
+  text-align: left;
+}
+#top_subtitle {
+  color:gray;
+  font-size: 1em;
+  text-align: bottom;
+  padding-top: 15px;
+  color: #888888;
+}
+.nav {
+  background-color: black;
+  display: inline-block;
+  width:14%;
+  font-size: 24px;
+  height:50px;
+  text-align: center;
+  padding-top: 15px;
+}
+.nav a {
+color: white;
+text-align: center;
+text-decoration: none;
+}
+
+ /*Change link text color to red when on hover*/
+
+li a:hover {
+color: red;
+}
+li {
+    float: left;
+    border-right: 1px solid;
+}
+
+li :last child {
+  border-right: none;
+}
+li a:hover {
+    background-color: #333;
+  }
+/*.myimg {
+  max-width:100%; height:auto;*/
+}
+.container {
+  border:#900 0px solid;
+  overflow:hidden;
+}
+.boxes {
+  border:#000 0px solid;
+  float: left;
+	width: 66.66667%;
+  }
+.box-1 {
+  float: left;
+  width: 60%;
+  font-size: 40px;
+  color: #888888;
+}
+.box-2 {
+  float: left;
+  width: 28%;
+  padding-left: 30px;
+  color: black;
+  margin-top: 40px;
+}
+.btext {
+	font-weight: bold;
+  font-size: 18px;
+  color: red;
+	text-align: right;
+}
+.posts {
+  color: #888888;
+
+}
+.tcul {
+  color: #888888;
+}
+.nav2 {
+  background-color: white;
+  display: inline-block;
+  color: red;
+  width:14%;
+  height:55px;
+  font-size: 14px;
+  text-align: center;
+  /*padding: 0px 0px;*/
+  list-style: none;
+  /*margin: 40;*/
+  overflow:hidden;
+}
